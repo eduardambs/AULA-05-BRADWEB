@@ -1,0 +1,90 @@
+/* let numero = 10;
+    let string = "Minha String";
+    let meuNull = null;
+    let nada;
+
+    console.log(typeof numero);
+    console.log(typeof string);
+    console.log(typeof meuNull);
+    console.log(typeof nada);
+    */ 
+
+
+  /* let nome = new String("IFSP");
+   console.log(
+    `Instituição: ${nome}`);
+
+    let tamanho =
+    nome.length;
+    console.log(
+        `Tamanho: ${tamanho}`
+ );
+
+        let letra3 =
+        nome [2];
+    console.log(
+        `Terceira Letra:
+            ${letra3}`
+    );
+
+    let contemSigla =
+        nome.includes("IF");
+    console.log(
+        `Console IF?:
+        ${contemSigla}`
+    );
+    */
+
+   /* nome = "FATEC";
+   console.log(
+    `Nova Instituição: 
+        ${nome}`); */
+
+
+    // alert("Bem vindo");
+
+    /* let dataAgora = new Date();
+    console.log(dataAgora);
+    dataAgora.setDate(20);
+    // dataAgora = new Date ();
+    console.log(dataAgora);
+    let dataDefinida = 
+        new Date(2023, 00, 20);
+    console.log(dataDefinida); */
+
+    function imprimeNome(nome){
+        console.log(
+            `Nome 
+            recebido: ${nome}`);
+    }
+
+    function imprimeCadObj(
+        cadastro
+    ){
+        console.log(
+            `Nome: ${cadastro.nome}\n
+             Idade: ${cadastro.idade}\n
+             Matriculado?: ${
+                cadastro.matriculado}\n
+             `);
+    }
+    let cad = {
+        nome: "IF",
+        idade: 15,
+        matriculado: true
+    };
+
+    imprimeCadObj(cad);
+
+    function imprimeCadastro(
+        nome, idade, matriculado
+    ){
+        console.log(
+            `Nome: ${nome}\n
+             Idade: ${idade}\n
+             Matriculado?: ${matriculado}\n
+             `);
+    }
+    /*imprimeCadastro("IF", 15);*/
+    imprimeNome(10);
+    imprimeNome("Outro nome");
